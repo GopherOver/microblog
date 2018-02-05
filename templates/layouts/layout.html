@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Микроблог">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+
+		<meta name="robots" content="noarchive">
+
+		<title>Blog</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="#">Blog</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- <div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							[[ range $, $category := .Categories ]]
+								<a class="dropdown-item" href="#">[[ $category ]]</a>
+							[[ end ]]
+						</div>
+					</li>
+				</ul>
+			</div> -->
+		</nav>
+		
+		<main role="main" class="container">
+			[[ yield ]]
+		</main>
+
+		<footer class="footer bg-light">
+			<div class="container">
+				<span class="text-muted">Microblog by <a href="https://github.com/GopherOver" target="_blank">@GopherOver</a></span>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="/assets/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

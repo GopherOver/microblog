@@ -13,9 +13,27 @@
   revision = "49411a5b646861ad29a6ddd5351717a0a9c49b94"
   version = "v1.0"
 
+[[projects]]
+  branch = "master"
+  name = "github.com/martini-contrib/gzip"
+  packages = ["."]
+  revision = "6c035326b43f79aa18793d2f1db512d21253ea61"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/martini-contrib/render"
+  packages = ["."]
+  revision = "ec18f8345a1181146728238980606fb1d6f40e8c"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/oxtoacart/bpool"
+  packages = ["."]
+  revision = "4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "55e9cc4bb1048e2f39b3db4467f07f0f82b8c2651b501f763004002c2b6b20df"
+  inputs-digest = "3dbb83b433cdeb5b6d822bbe0a6a87b08c48d2d070bc07ab87a17ef63442f790"
   solver-name = "gps-cdcl"
   solver-version = 1
