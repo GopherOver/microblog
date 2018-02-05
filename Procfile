@@ -1,1 +1,1 @@
-web: go build && ./microblog
+web: microblog-gb
